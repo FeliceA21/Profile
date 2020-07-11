@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "profile-felice": {
+      "hosting": {
+        "profile": [
+          "profile-felice"
+        ]
+      }
+    }
+  }
+}
