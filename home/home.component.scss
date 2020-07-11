@@ -1,0 +1,40 @@
+.row {
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../../assets/images/back.jpg");
+}
+.container-2{
+    background-color: rgba(61, 58, 58, 0.897);
+    color: white;
+    text-decoration-color: white;
+}
+.line{
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.smaller{
+    max-width: 50%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 20%;
+}
+.container-3{
+    background-color: rgba(94, 89, 89, 0.836);
+    color: white;
+}
+.button{
+    margin-top: 20px;
+}
+.button-helper{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: none;
+    text-decoration: underline;
+}

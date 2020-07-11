@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+            <div class="col-4 text-center vh-100 container-2">
+               <img src="../../assets/images/me.JPG" alt="ayaw lumabas" class="img-responsive smaller">
+                        <h3>Felice Ysabelle U. Aranas, IE</h3>
+                        <p class="line">Olongapo City, Zambales, Philippines 2200</p>
+                        <a href="https://www.linkedin.com/in/felice-ysabelle-aranas/" class="line">Linkedin: Felice Ysabelle Aranas</a>
+                        <p class="line">felicearanas@gmail.com</p>
+                        <p class="line">09487803702</p>
+            </div>
+            <div class="col-8 vh-25 container-3">
+                    <nav class="button">
+                        <button class="button-helper"(click)="toggleEditor('about')">About</button>
+                        <button class="button-helper"(click)="toggleEditor('pinfo')">Personal Information</button>
+                        <button class="button-helper"(click)="toggleEditor('edu')">Educational Background</button>
+                        <button class="button-helper"(click)="toggleEditor('awards')">Honors & Awards</button>
+                        <button class="button-helper"(click)="toggleEditor('employ')">Employment Record</button>
+                        <button class="button-helper"(click)="toggleEditor('org')">Affiliation</button>
+                      </nav>
+                    <app-about *ngIf="showAbout"></app-about>
+                    <app-pinfo *ngIf="showPinfo"></app-pinfo>
+                    <app-edu *ngIf="showEdu"></app-edu>
+                    <app-awards *ngIf="showAwards"></app-awards>
+                    <app-employ *ngIf="showEmploy"></app-employ>
+                    <app-org *ngIf="showOrg"></app-org>
+            </div>
+    </div>
+</div>
+  
